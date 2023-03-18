@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Accordion } from "react-bootstrap";
 
 const faqsData = [
-  "How to Getting Started your Business",
+  // "How to Getting Started your Business",
   "What is Business & Financial Relationship ?",
   "What is Importance of Co-working ?",
   "Useful Front-End Boilerplates And Starter Kits",

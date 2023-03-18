@@ -4,7 +4,7 @@ export const serviceSliderOne = {
   infinite: true,
   speed: 800,
   autoplay: false,
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 1,
   responsive: [
     {
