@@ -325,13 +325,13 @@ const Index = () => {
             <div className="col-lg-5">
               {/*=== CTA Button ===*/}
               <div className="cta-button float-lg-right mb-30 wow fadeInRight">
-                <a
+                <Link
                   href="https://t.me/socialmediaotc"
                   target="_blank"
                   className="main-btn btn-white"
                 >
                   Get Free Consultations
-                </a>
+                </Link>
               </div>
             </div>
           </div>
