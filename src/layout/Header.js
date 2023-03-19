@@ -60,16 +60,18 @@ const DefaultHeader = ({ singleMenus }) => (
               <span className="text">
                 <i className="far fa-envelope" /> Email Us :{" "}
                 <span>
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <a href="mailto:support@socialmediaotc.com">
+                    support@socialmediaotc.com
+                  </a>
                 </span>
               </span>
               <span className="text">
                 <i className="far fa-clock" /> Working Hours :
-                <span>Monday - Friday, 08 am - 05 pm</span>
+                <span>Monday - Friday, 09 am - 10 pm</span>
               </span>
             </div>
           </div>
-          <div className="col-lg-3 col-md-12">
+          {/* <div className="col-lg-3 col-md-12">
             <div className="top-right float-lg-right">
               <ul className="social-link">
                 <li>
@@ -94,7 +96,7 @@ const DefaultHeader = ({ singleMenus }) => (
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
@@ -108,7 +110,10 @@ const DefaultHeader = ({ singleMenus }) => (
           <div className="site-branding">
             <Link legacyBehavior href="/">
               <a className="brand-logo default-logo">
-                <img src="assets/images/logo/logo-1.png" alt="Site Logo" />
+                <img
+                  src="assets/images/logo/Social-media-OTC-White.png"
+                  alt="Site Logo"
+                />
               </a>
             </Link>
             <Link legacyBehavior href="/">
@@ -156,7 +161,7 @@ const DefaultHeader = ({ singleMenus }) => (
               <div className="call-button">
                 <span>
                   <i className="fas fa-headset" />
-                  <a href="tel:+180065323">+180065323</a>
+                  <a href="tel:+44 7477235306">+44 7477235306</a>
                 </span>
               </div>
               <div className="menu-button">
@@ -478,202 +483,18 @@ const Menus = () => (
   <Fragment>
     <nav className="main-menu d-none d-xl-block">
       <ul>
-        <li className="menu-item has-children">
-          <a href="#" className="active">
+        <li className="menu-item">
+          <a href="/" className="active">
             Home
           </a>
-          <ul className="sub-menu">
-            <li className="has-children">
-              <a href="#">Multipage</a>
-              <ul className="sub-menu">
-                <li>
-                  <Link legacyBehavior href="/">
-                    Business Consultant
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="index-2">
-                    Investment Solutions
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="index-3">
-                    Digital Banking
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="index-4">
-                    Business Advisor
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="index-5">
-                    Marketing Agency
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            <li className="has-children">
-              <a href="#">One Page</a>
-              <ul className="sub-menu">
-                <li>
-                  <Link legacyBehavior href="onepage-index">
-                    Business Consultant
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="onepage-index-2">
-                    Investment Solutions
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="onepage-index-3">
-                    Digital Banking
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="onepage-index-4">
-                    Business Advisor
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="onepage-index-5">
-                    Marketing Agency
-                  </Link>
-                </li>
-              </ul>
-            </li>
-          </ul>
         </li>
         <li className="menu-item">
           <Link legacyBehavior href="about">
             About
           </Link>
         </li>
-        <li className="menu-item has-children">
+        <li className="menu-item ">
           <a href="#">Services</a>
-          <ul className="sub-menu">
-            <li>
-              <Link legacyBehavior href="services">
-                Our Services
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="service-details">
-                Service Details
-              </Link>
-            </li>
-          </ul>
-        </li>
-        <li className="menu-item has-children">
-          <a href="#">Team</a>
-          <ul className="sub-menu">
-            <li>
-              <Link legacyBehavior href="team">
-                Our Team
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="team-details">
-                Team Details
-              </Link>
-            </li>
-          </ul>
-        </li>
-        <li className="menu-item has-children">
-          <a href="#">Pages</a>
-          <ul className="sub-menu">
-            <li>
-              <Link legacyBehavior href="career">
-                Career
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="job-details">
-                Job Details
-              </Link>
-            </li>
-            <li className="has-children">
-              <a href="#">Project</a>
-              <ul className="sub-menu">
-                <li>
-                  <Link legacyBehavior href="project-3-column">
-                    Project 3 Column
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="project-masonry">
-                    Project Masonry
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="project-details">
-                    Project Details
-                  </Link>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <Link legacyBehavior href="products">
-                Our Products
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="product-details">
-                Product Details
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="testimonial">
-                Testimonial
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="faqs">
-                Faqs
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="pricing">
-                Pricing
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="error-404">
-                Page 404
-              </Link>
-            </li>
-            <li className="has-children">
-              <a href="#">User Pages</a>
-              <ul className="sub-menu">
-                <li>
-                  <Link legacyBehavior href="sign-in">
-                    Sign In
-                  </Link>
-                </li>
-                <li>
-                  <Link legacyBehavior href="sign-up">
-                    Sign Up
-                  </Link>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li className="menu-item has-children">
-          <a href="#">News</a>
-          <ul className="sub-menu">
-            <li>
-              <Link legacyBehavior href="blog-listing">
-                Blog Standard
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="blog-details">
-                Blog Details
-              </Link>
-            </li>
-          </ul>
         </li>
         <li className="menu-item">
           <Link legacyBehavior href="contact">

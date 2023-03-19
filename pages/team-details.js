@@ -61,44 +61,6 @@ const TeamDetails = () => {
           </div>
         </div>
       </section>
-      {/*====== End Team Details Section ======*/}
-      {/*====== Start Faq Section ======*/}
-      <section className="faq-section pb-70">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-6">
-              {/*=== Faq content box ===*/}
-              <div className="faq-one_content-box mb-50">
-                <div className="section-title section-title-left mb-50 wow fadeInDown">
-                  <span className="sub-title">Faqs</span>
-                  <h2>Have Any Questions ? Question &amp; Answer</h2>
-                </div>
-                <div
-                  className="faq-accordion-two mb-50 wow fadeInUp"
-                  id="accordionOne"
-                >
-                  <SimpleFaq />
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-6">
-              {/*=== Faq image box ===*/}
-              <div className="faq-one_image-box ml-lg-70 p-r mb-50">
-                <div className="image-overlay" />
-                <img src="assets/images/gallery/faq-5.jpg" alt="Faq Image" />
-                <div className="play-content text-center">
-                  <a
-                    href="https://www.youtube.com/watch?v=TboWOSW7qCI"
-                    className="video-popup"
-                  >
-                    <i className="fas fa-play" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       {/*====== End Faq Section ======*/}
       {/*====== Start Contact Section ======*/}
       <section className="contact-section p-r pb-80">

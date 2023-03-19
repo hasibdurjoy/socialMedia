@@ -887,7 +887,7 @@ const Index = () => {
               {/*=== Common Heading ===*/}
               <div className="section-title text-center mb-60 wow fadeInDown">
                 <span className="sub-title">Article &amp; News</span>
-                <h2>Get Every Single News &amp; Blog</h2>
+                {/* <h2>Get Every Single News &amp; Blog</h2> */}
               </div>
             </div>
           </div>

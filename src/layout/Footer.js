@@ -420,7 +420,9 @@ const Footer3 = () => (
                   </div>
                   <div className="text">
                     <p>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:support@socialmediaotc.com">
+                        support@socialmediaotc.com
+                      </a>
                     </p>
                   </div>
                 </div>

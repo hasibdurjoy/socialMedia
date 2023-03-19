@@ -38,7 +38,7 @@ const BlogListing = () => {
                     </div>
                     <h3 className="title">
                       <Link legacyBehavior href="/blog-details">
-                        <a>Guide To Newly Supporte Modern CSS Psedo</a>
+                        {/* <a>Guide To Newly Supporte Modern CSS Psedo</a> */}
                       </Link>
                     </h3>
                     <p>
