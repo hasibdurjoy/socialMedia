@@ -41,7 +41,10 @@ const Banking = () => {
             {/*=== Service Item ===*/}
             {data.map((single) => {
               return (
-                <div className="col-md-2 service-item wow fadeInUp mt-5">
+                <div
+                  className="col-md-2 service-item wow fadeInUp mt-5"
+                  key={single.name}
+                >
                   <div className="img-holder">
                     <img
                       src={`assets/banking/${single.img}`}
@@ -68,13 +71,13 @@ const Banking = () => {
                         </h3>
                       </div>
                       <p>{single.text}</p>
-                      <a
+                      <Link
                         className="icon-btn"
                         href="https://t.me/socialmediaotc"
                         target="_blank"
                       >
                         <i className="far fa-arrow-right" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

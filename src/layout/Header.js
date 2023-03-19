@@ -151,14 +151,14 @@ const DefaultHeader = ({ singleMenus }) => (
 
               {/*=== Navbar Menu Button ===*/}
               <div className="menu-button pt-30">
-                <a
+                <Link
                   className="main-btn btn-red"
                   href="https://t.me/socialmediaotc"
                   target="_blank"
                   style={{ textDecoration: "none" }}
                 >
                   Get Consultation
-                </a>
+                </Link>
               </div>
             </div>
             {/*=== Nav right Item ===*/}
@@ -170,14 +170,14 @@ const DefaultHeader = ({ singleMenus }) => (
                 </span>
               </div>
               <div className="menu-button">
-                <a
+                <Link
                   className="main-btn btn-red"
                   href="https://t.me/socialmediaotc"
                   target="_blank"
                   style={{ textDecoration: "none" }}
                 >
                   Get Consultation
-                </a>
+                </Link>
               </div>
               <div className="navbar-toggler">
                 <span />
@@ -472,14 +472,14 @@ const Header5 = ({ singleMenus }) => (
             {/*=== Nav right Item ===*/}
             <div className="nav-right-item d-flex align-items-center">
               <div className="menu-button">
-                <a
+                <Link
                   className="main-btn btn-red"
                   href="https://t.me/socialmediaotc"
                   target="_blank"
                   style={{ textDecoration: "none" }}
                 >
                   Get Consultation
-                </a>
+                </Link>
               </div>
               <div className="navbar-toggler">
                 <span />

@@ -37,9 +37,9 @@ const Services = () => {
                 <div className="text">
                   <h3 className="title">Banking</h3>
                 </div>
-                <a href="/banking" className="icon-btn">
+                <Link href="/banking" className="icon-btn">
                   <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xl-6 col-lg-12">
@@ -55,9 +55,9 @@ const Services = () => {
                 <div className="text">
                   <h3 className="title">Crypto Exchange</h3>
                 </div>
-                <a href="/crypto" className="icon-btn">
+                <Link href="/crypto" className="icon-btn">
                   <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xl-6 col-lg-12">
@@ -73,9 +73,9 @@ const Services = () => {
                 <div className="text">
                   <h3 className="title">Betting account</h3>
                 </div>
-                <a href="/betting" className="icon-btn">
+                <Link href="/betting" className="icon-btn">
                   <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xl-6 col-lg-12">
@@ -91,9 +91,9 @@ const Services = () => {
                 <div className="text">
                   <h3 className="title">Social Account</h3>
                 </div>
-                <a href="/social" className="icon-btn">
+                <Link href="/social" className="icon-btn">
                   <i className="fas fa-arrow-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
