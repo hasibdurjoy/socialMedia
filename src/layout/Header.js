@@ -119,7 +119,7 @@ const DefaultHeader = ({ singleMenus }) => (
             <Link legacyBehavior href="/">
               <a className="brand-logo default-sticky-logo">
                 <img
-                  src="assets/images/logo/default-sticky-logo.png"
+                  src="assets/images/logo/Social-media-OTC-White.png"
                   alt="Site Logo"
                 />
               </a>
@@ -484,9 +484,9 @@ const Menus = () => (
     <nav className="main-menu d-none d-xl-block">
       <ul>
         <li className="menu-item">
-          <a href="/" className="active">
+          <Link href="/" className="active">
             Home
-          </a>
+          </Link>
         </li>
         <li className="menu-item">
           <Link legacyBehavior href="about">
