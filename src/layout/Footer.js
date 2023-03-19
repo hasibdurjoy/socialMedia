@@ -44,156 +44,70 @@ const DefaultFooter = () => (
       {/*=== Footer Widget ===*/}
       <div className="footer-widget-wrapper pt-80 pb-35">
         <div className="row">
-          <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="footer-widget about-company-widget mb-40 wow fadeInUp">
               <h4 className="widget-title">About Company</h4>
               <div className="footer-content">
                 <p>
-                  Sed ut perspiciatis unde omnis natus error sit voluptate
-                  santium dolorem dantium totam reaperia eaque ipsa quae abillo
-                  inventore veritatis et quasi architecto
+                  Welcome to Social Media OTC, the ultimate destination for
+                  buying Social Media Account services. Our platform provides a
+                  seamless experience for buyers. making it easier than ever to
+                  conduct transactions in the social media market. Whether
+                  you’re new to Social Media OTC or a seasoned user, we’ve got
+                  you covered!
                 </p>
-                <ul className="social-link">
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-instagram" />
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="footer-widget footer-nav-widget mb-40 wow fadeInUp">
               <h4 className="widget-title">Services</h4>
               <div className="footer-content">
                 <ul className="widget-nav">
                   <li>
-                    <a href="#">Business Consulting</a>
+                    <a href="#">Bank Account</a>
                   </li>
                   <li>
-                    <a href="#">Financial Investment</a>
+                    <a href="#">Crypto Exchange</a>
                   </li>
                   <li>
-                    <a href="#">Corporate Business</a>
+                    <a href="#">Betting account</a>
                   </li>
                   <li>
-                    <a href="#">IT Consulting</a>
-                  </li>
-                  <li>
-                    <a href="#">Web Strategy</a>
-                  </li>
-                  <li>
-                    <a href="#">Business Development</a>
+                    <a href="#">Social Account</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-sm-12">
-            <div className="footer-widget contact-info-widget mb-40 wow fadeInUp">
-              <div className="footer-content">
-                <h5 className="title">Main Office</h5>
-                <div className="contact-info-box d-flex mb-40">
-                  <div className="icon">
-                    <i className="far fa-map-marker-alt" />
-                  </div>
-                  <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
-                  </div>
-                </div>
-                <h5 className="title">Branch Office</h5>
-                <div className="contact-info-box d-flex mb-40">
-                  <div className="icon">
-                    <i className="far fa-map-marker-alt" />
-                  </div>
-                  <div className="text">
-                    <p>55 Main Street, 2nd Block 3rd Floor, New York</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-sm-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="footer-widget about-info-widget mb-40 wow fadeInUp">
               <div className="footer-content">
                 <div className="footer-widget-logo">
                   <Link legacyBehavior href="/">
                     <a>
-                      <img src="assets/images/logo/footer-logo-1.png" alt="" />
+                      <img
+                        src="assets/images/logo/Social-media-OTC-White.png"
+                        alt=""
+                      />
                     </a>
                   </Link>
                 </div>
-                <h5 className="title">Email Addrss</h5>
+                <h5 className="title">Email Address</h5>
                 <div className="contact-info-box d-flex mb-20">
                   <div className="icon">
                     <i className="far fa-envelope" />
                   </div>
                   <div className="text">
                     <p>
-                      <a href="mailto:hotline@gmail.com">hotline@gmail.com</a>
+                      <a href="mailto:support@socialmediaotc.com">
+                        support@socialmediaotc.com
+                      </a>
                     </p>
                   </div>
                 </div>
-                <p>Copy@ 2022 Fintex. All Rights reserved by Webtend</p>
+                <p>Copy@ 2023 SMOTC. All Rights reserved by Social Media OTC</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*=== Footer Copyright ===*/}
-      <div className="footer-copyright border-top-white-op-1">
-        <div className="row">
-          <div className="col-lg-8">
-            <div className="footer-nav wow fadeInLeft">
-              <ul>
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Services</a>
-                </li>
-                <li>
-                  <a href="#">Team</a>
-                </li>
-                <li>
-                  <a href="#">Pages</a>
-                </li>
-                <li>
-                  <a href="#">News</a>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="footer-text float-lg-right wow fadeInRight">
-              <p>
-                <span className="number">
-                  <span className="count">256378</span>+
-                </span>{" "}
-                Global Partners
-              </p>
             </div>
           </div>
         </div>

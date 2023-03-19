@@ -12,7 +12,9 @@ const Index = () => {
       {/*====== Start Hero Section ======*/}
       <section
         className="banner-one bg_cover p-r z-1"
-        style={{ backgroundImage: "url(assets/images/hero/hero-bg-1.jpg)" }}
+        style={{
+          backgroundImage: "url(assets/images/hero/ezgif.com-video-to-gif.gif)",
+        }}
       >
         <div className="shape shape-one">
           <span>
@@ -36,7 +38,7 @@ const Index = () => {
                   We Provide Digital Business Solutions
                 </h1>
                 <div className="hero-button wow fadeInUp" data-wow-delay=".9s">
-                  <Link legacyBehavior href="/about">
+                  <Link legacyBehavior href="/services">
                     <a className="main-btn btn-red">Explore More</a>
                   </Link>
                   <Link legacyBehavior href="/services">
@@ -76,17 +78,27 @@ const Index = () => {
               <div className="about-content-box content-box-gap wow fadeInLeft mb-50">
                 <div className="section-title section-title-left">
                   <span className="sub-title">About Company</span>
-                  <h2>Help to Create Great Business Future </h2>
+                  <h2>We provide the best service </h2>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium totam rem aperiam eaque
-                  abillo inventore veritatis quasi architecto beatae vitae dicta
-                  sunt explicabo nemo enim ipsam voluptatem quia.
+                  UNIQUE SERVICES Of Our Product Welcome to Social Media OTC,
+                  the ultimate destination for buying Social Media Account
+                  services. Our platform provides a seamless experience for
+                  buyers. making it easier than ever to conduct transactions in
+                  the social media market. Whether you’re new to Social Media
+                  OTC or a seasoned user, we’ve got you covered! Support and
+                  Safety on Social Media OTC: At Social Media OTC, we take the
+                  safety and security of our users very seriously. We have a
+                  team of dedicated support specialists available 24/7 to help
+                  with any questions or issues you may have. Additionally, we
+                  have implemented a number of safety measures to protect your
+                  information and transactions on our platform. If you have any
+                  questions or concerns, please don’t hesitate to reach out to
+                  our support team. We’re here to help!
                 </p>
-                <Link legacyBehavior href="/about">
+                {/* <Link legacyBehavior href="/about">
                   <a className="btn-link">Learn More Us</a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="col-lg-6">
@@ -104,7 +116,7 @@ const Index = () => {
         className="service-section bg_cover pt-125 p-r z-1 pb-150"
         style={{ backgroundImage: "url(assets/images/bg/service-bg-1.jpg)" }}
       >
-        <div className="container">
+        <div className="mx-5">
           <div className="row justify-content-center">
             <div className="col-xl-6 col-lg-10">
               {/*=== Common Heading ===*/}
@@ -118,59 +130,19 @@ const Index = () => {
           <LatestServices />
         </div>
       </section>
-      {/*====== End Service Section ======*/}
-      {/*====== Start Fact Section ======*/}
-      <section className="fact-section p-r z-1 pt-130">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-7 col-lg-12">
-              {/*=== Fact image box ===*/}
-              <div className="fact-img_one-box text-right pr-lg-70 mb-50">
-                <div className="quote-box-three text-left wow fadeInLeft z-1">
-                  <h3>
-                    We Have 25 Years Of Experience in Business Consulting
-                    Services
-                  </h3>
-                  <div className="author-thumb-title d-flex align-items-center">
-                    <div className="author-thumb">
-                      <img
-                        src="assets/images/author-1.jpg"
-                        alt="Author Image"
-                      />
-                    </div>
-                    <div className="author-title">
-                      <h4 className="title">Joseh G. Coleman</h4>
-                      <p className="position">CEO &amp; Founder</p>
-                    </div>
-                  </div>
-                </div>
-                <img
-                  src="assets/images/gallery/img-1.jpg"
-                  className="wow fadeInDown"
-                  alt="Fact image"
-                />
-              </div>
-            </div>
-            {/* deleted from here */}
-          </div>
-        </div>
-      </section>
       {/*====== End Fact Section ======*/}
       {/*====== Start Project Section ======*/}
-      <section className="project-section pt-75 pb-100">
+      {/* <section className="project-section pt-75 pb-100">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-xl-8 col-lg-10">
-              {/*=== Common Heading ===*/}
               <div className="section-title text-center mb-60 wow fadeInDown">
-                <span className="sub-title">Latest Project &amp; Case</span>
-                <h2>Let’s Looks Our Global Projects</h2>
+                <span className="sub-title">Our Top Selling Products</span>
+                <h2>Let’s Looks At Our Top Selling Products</h2>
               </div>
             </div>
           </div>
-          {/*=== Project Slider ===*/}
           <Slider {...projectsSliderOne} className="projects-slider-one">
-            {/*=== Project Item ===*/}
             <div className="project-item wow fadeInUp">
               <div className="img-holder">
                 <img
@@ -198,7 +170,6 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            {/*=== Project Item ===*/}
             <div className="project-item wow fadeInUp">
               <div className="img-holder">
                 <img
@@ -226,7 +197,6 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            {/*=== Project Item ===*/}
             <div className="project-item wow fadeInUp">
               <div className="img-holder">
                 <img
@@ -254,7 +224,6 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            {/*=== Project Item ===*/}
             <div className="project-item wow fadeInUp">
               <div className="img-holder">
                 <img
@@ -282,7 +251,6 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            {/*=== Project Item ===*/}
             <div className="project-item wow fadeInUp">
               <div className="img-holder">
                 <img
@@ -310,7 +278,6 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            {/*=== Project Item ===*/}
             <div className="project-item wow fadeInUp">
               <div className="img-holder">
                 <img
@@ -340,7 +307,7 @@ const Index = () => {
             </div>
           </Slider>
         </div>
-      </section>
+      </section> */}
       {/*====== End Project Section ======*/}
       {/*====== Start CTA Section ======*/}
       <section
@@ -352,15 +319,19 @@ const Index = () => {
             <div className="col-lg-7">
               {/*=== Common Heading ===*/}
               <div className="section-title text-white mb-30 wow fadeInLeft">
-                <h2>Get Free Consultations! We’re Ready to Work Together</h2>
+                <h2>Get Free Consultations! We’re Ready to Help you out.</h2>
               </div>
             </div>
             <div className="col-lg-5">
               {/*=== CTA Button ===*/}
               <div className="cta-button float-lg-right mb-30 wow fadeInRight">
-                <Link legacyBehavior href="/team">
-                  <a className="main-btn btn-white">Get Free Consultations</a>
-                </Link>
+                <a
+                  href="https://t.me/socialmediaotc"
+                  target="_blank"
+                  className="main-btn btn-white"
+                >
+                  Get Free Consultations
+                </a>
               </div>
             </div>
           </div>
@@ -373,14 +344,13 @@ const Index = () => {
       </section>
       {/*====== End Team Section ======*/}
       {/*====== Start Feedback Section ======*/}
-      <section className="feedback-section p-r z-2 pb-130">
+      {/* <section className="feedback-section p-r z-2 pb-130">
         <FeedbackSectionChart />
-      </section>
+      </section> */}
       {/*====== End FAQ Section ======*/}
       {/*====== Start Partners Section ======*/}
-      <section className="partners-section dark-black-bg pt-60 pb-60">
+      {/* <section className="partners-section dark-black-bg pt-60 pb-60">
         <div className="container">
-          {/*=== Partner Slider ===*/}
           <Slider {...partnerSliderOne} className="partner-slider-one">
             <div className="partner-item">
               <div className="partner-img">
@@ -454,64 +424,12 @@ const Index = () => {
             </div>
           </Slider>
         </div>
-      </section>
+      </section> */}
       {/*====== End Partners Section ======*/}
       {/*====== Start Blog Section ======*/}
       <section className="blog-section pt-120 pb-10 p-r z-1"></section>
       {/*====== End Blog Section ======*/}
       {/*====== Start Newsletter Section ======*/}
-      <section className="newsletter-section black-bg pt-50 pb-40">
-        <div className="container">
-          <div className="row">
-            <div className="col-xl-5 col-lg-12">
-              {/*=== Common Heading ===*/}
-              <div className="section-title section-title-white wow fadeInLeft">
-                <h2>Subscribe Our Newsletter to Get More Updates</h2>
-              </div>
-            </div>
-            <div className="col-xl-7 col-lg-12">
-              {/*=== Newsletter Item ===*/}
-              <div className="newsletter-from wow fadeInRight">
-                <form onSubmit={(e) => e.preventDefault()}>
-                  <div className="row align-items-center">
-                    <div className="col-lg-8">
-                      <div className="form_group">
-                        <input
-                          type="email"
-                          className="form_control"
-                          placeholder="Enter Email Address"
-                          name="email"
-                        />
-                        <i className="far fa-envelope" />
-                      </div>
-                      <div className="form_checkbox">
-                        <input
-                          type="checkbox"
-                          name="checkbox"
-                          id="check1"
-                          defaultChecked=""
-                        />
-                        <label htmlFor="check1">
-                          <span>
-                            I agree to the <a href="#"> Privacy Policy</a>.
-                          </span>
-                        </label>
-                      </div>
-                    </div>
-                    <div className="col-lg-4">
-                      <div className="form-button float-lg-right">
-                        <button className="main-btn btn-red">
-                          Subscribe Now
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 };

@@ -504,7 +504,7 @@ const Menus = () => (
           </Link>
         </li>
         <li className="menu-item">
-          <Link legacyBehavior href="about">
+          <Link legacyBehavior href="/#about">
             About
           </Link>
         </li>
