@@ -151,9 +151,14 @@ const DefaultHeader = ({ singleMenus }) => (
 
               {/*=== Navbar Menu Button ===*/}
               <div className="menu-button pt-30">
-                <Link legacyBehavior href="/contact">
-                  <a className="main-btn btn-red">Get Consultation</a>
-                </Link>
+                <a
+                  className="main-btn btn-red"
+                  href="https://t.me/socialmediaotc"
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                >
+                  Get Consultation
+                </a>
               </div>
             </div>
             {/*=== Nav right Item ===*/}
@@ -165,9 +170,14 @@ const DefaultHeader = ({ singleMenus }) => (
                 </span>
               </div>
               <div className="menu-button">
-                <Link legacyBehavior href="/contact">
-                  <a className="main-btn btn-red">Get Consultation</a>
-                </Link>
+                <a
+                  className="main-btn btn-red"
+                  href="https://t.me/socialmediaotc"
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                >
+                  Get Consultation
+                </a>
               </div>
               <div className="navbar-toggler">
                 <span />
@@ -462,9 +472,14 @@ const Header5 = ({ singleMenus }) => (
             {/*=== Nav right Item ===*/}
             <div className="nav-right-item d-flex align-items-center">
               <div className="menu-button">
-                <Link legacyBehavior href="/contact">
-                  <a className="main-btn btn-orange">Get Consultation</a>
-                </Link>
+                <a
+                  className="main-btn btn-red"
+                  href="https://t.me/socialmediaotc"
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                >
+                  Get Consultation
+                </a>
               </div>
               <div className="navbar-toggler">
                 <span />

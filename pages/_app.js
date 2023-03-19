@@ -14,9 +14,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <title>
-          Fintex - Consulting &amp; Financial Technology React NextJS Template
-        </title>
+        <title>Social Media OTC</title>
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
