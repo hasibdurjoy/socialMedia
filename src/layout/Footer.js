@@ -65,16 +65,16 @@ const DefaultFooter = () => (
               <div className="footer-content">
                 <ul className="widget-nav">
                   <li>
-                    <a href="#">Bank Account</a>
+                    <Link href="/banking">Bank Account</Link>
                   </li>
                   <li>
-                    <a href="#">Crypto Exchange</a>
+                    <Link href="/crypto">Crypto Exchange</Link>
                   </li>
                   <li>
-                    <a href="#">Betting account</a>
+                    <Link href="/betting">Betting account</Link>
                   </li>
                   <li>
-                    <a href="#">Social Account</a>
+                    <Link href="/social">Social Account</Link>
                   </li>
                 </ul>
               </div>

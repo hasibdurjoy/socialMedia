@@ -7,7 +7,7 @@ const LatestServices = () => {
   return (
     <div className="d-flex align-items-center justify-content-between flex-wrap">
       {/*=== Service Item ===*/}
-      <div className="service-item wow fadeInUp">
+      <div className="service-item wow fadeInUp mb-20 mb-20">
         <div className="img-holder">
           <img
             src="assets/images/service/banking.jpg"
@@ -48,7 +48,7 @@ const LatestServices = () => {
         </div>
       </div>
       {/*=== Service Item ===*/}
-      <div className="service-item wow fadeInUp">
+      <div className="service-item wow fadeInUp mb-20">
         <div className="img-holder">
           <img
             src="assets/images/service/crypto.jpg"
@@ -89,7 +89,7 @@ const LatestServices = () => {
         </div>
       </div>
       {/*=== Service Item ===*/}
-      <div className="service-item wow fadeInUp">
+      <div className="service-item wow fadeInUp mb-20">
         <div className="img-holder">
           <img
             src="assets/images/service/betting.jpg"
@@ -130,7 +130,7 @@ const LatestServices = () => {
         </div>
       </div>
       {/*=== Service Item ===*/}
-      <div className="service-item wow fadeInUp">
+      <div className="service-item wow fadeInUp mb-20">
         <div className="img-holder">
           <img
             src="assets/images/service/social.jpg"

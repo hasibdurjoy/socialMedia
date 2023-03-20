@@ -1601,8 +1601,8 @@ button {
   left: 0;
 }
 .banner-one .shape.shape-two {
-  right: 10%;
-  bottom: 35%;
+  left: 4%;
+  bottom: 40%;
 }
 @media (max-width: 1199px) {
   .banner-one .shape.shape-two {

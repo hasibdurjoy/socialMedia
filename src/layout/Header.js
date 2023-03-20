@@ -133,7 +133,7 @@ const DefaultHeader = ({ singleMenus }) => (
                 <Link legacyBehavior href="/">
                   <a className="brand-logo">
                     <img
-                      src="assets/images/logo/default-sticky-logo.png"
+                      src="assets/images/logo/Social-media-OTC-White.png"
                       alt="Site Logo"
                     />
                   </a>

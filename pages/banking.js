@@ -42,7 +42,7 @@ const Banking = () => {
             {data.map((single) => {
               return (
                 <div
-                  className="col-md-2 service-item wow fadeInUp mt-5"
+                  className="col-lg-3 col-md-4 col-xl-2 col-sm-6 service-item wow fadeInUp mt-5"
                   key={single.name}
                 >
                   <div className="img-holder">
